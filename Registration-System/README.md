@@ -26,29 +26,29 @@ $ ./ngrok authtoken 82dEPiAPk6GLxWj335LXk_5vBjkFenjSphF1cKo4Sjr
 
 ## How run the project
 
-**Step 1. download the repo.**
+**Step 1.download the repo.**
 ```
 $ git clone https://github.com/ling67/Web-Project.git
 ```
     
 Step 6: Test NGRok: Let people access your web server
 
-**Step 2. go to project folder**
+**Step 2.go to project folder**
 ```
 $ cd $WORD_DIR/html/cgi-bin
 ```
 
-**Step 3. change the permission**
+**Step 3.change the permission**
 ```
 $ chmod a+x *.py
 ```
 
-**Step 4.  **
+**Step 4.running the registration system**
 ```
 $ python3 -m http.server –cgi
 ```
 
-**Step 5.  **
+**Step 5.locally test the registration system**
 ```
 Open a browser and enter this URL: http://localhost:8000/regist.html
 ```
@@ -61,6 +61,12 @@ $ ./ngrok http 8000
 **Step 7. Test NGRok: Let people access your web server**
 
 Now you can access your website based on NGRok provide public address 
+
+## Test Result
+
+<img width="332" alt="image" src="https://user-images.githubusercontent.com/93315926/183278387-4232758e-afc5-4c89-a2dc-bb5ff1c8e8db.png">
+
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/93315926/183278400-1e7f8e6d-e110-45e6-8dd4-749fd5fd9ea1.png">
 
 ## Detail Design Presentation
 [Registration_System_Ling_Chen](https://docs.google.com/presentation/d/1fKrEHRzQL_7SV7ZmFwpuIFqvs5zGvqN0Bel_uh_A2tg/edit#slide=id.g25f6af9dd6_0_0)

@@ -28,7 +28,7 @@ $ ./ngrok authtoken 82dEPiAPk6GLxWj335LXk_5vBjkFenjSphF1cKo4Sjr
 
 **Step 1. download the repo.**
 ```
-$ git clone https://github.com/miguelgrinberg/flasky
+$ git clone https://github.com/ling67/Web-Project.git
 ```
     
 Step 6: Test NGRok: Let people access your web server
